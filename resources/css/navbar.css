@@ -1,0 +1,93 @@
+.gov-navbar {
+    height: var(--navbar-height);
+    background: linear-gradient(90deg, var(--gov-navy), var(--gov-blue));
+    border-bottom: 4px solid var(--gov-gold);
+    padding: 0.5rem 1rem;
+}
+
+.gov-menu-btn {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.gov-menu-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.gov-navbar-brand {
+    line-height: 1.15;
+}
+
+.gov-navbar-title {
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.gov-navbar-subtitle {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.gov-profile-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 999px;
+    padding: 0.35rem 0.75rem 0.35rem 0.35rem;
+}
+
+.gov-profile-btn:hover,
+.gov-profile-btn:focus {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.gov-profile-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+.gov-profile-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.gov-profile-menu {
+    border: 1px solid var(--gov-border);
+    border-radius: 12px;
+    min-width: 240px;
+    overflow: hidden;
+}
+
+.gov-profile-menu .dropdown-header {
+    color: var(--gov-navy);
+    font-size: 0.8rem;
+}
+
+@media (max-width: 575.98px) {
+    .gov-navbar-title {
+        font-size: 0.75rem;
+    }
+
+    .gov-navbar-subtitle,
+    .gov-profile-name {
+        display: none;
+    }
+
+    .gov-profile-btn {
+        padding: 0.3rem;
+    }
+}

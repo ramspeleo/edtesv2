@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@import './government.css';
+@import './layout.css';
+@import './navbar.css';
+@import './sidebar.css';
+@import './auth.css';
+@import './footer.css';
+/* @import './edtes.css'; */

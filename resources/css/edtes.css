@@ -1,0 +1,44 @@
+.sidebar-menu .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: #deff08;
+    font-weight: 500;
+    background: transparent;
+    text-align: left;
+}
+
+.sidebar-menu button.nav-link {
+    width: 100%;
+}
+
+.sidebar-menu .nav-link:hover {
+    background: #f1f5f9;
+    color: #0d6efd;
+}
+
+.sidebar-menu .nav-link.active {
+    background: #0d6efd;
+    color: #fff;
+}
+
+.sidebar-menu .submenu {
+    margin-left: 12px;
+    padding-left: 10px;
+    border-left: 1px solid #dee2e6;
+}
+
+.sidebar-menu .submenu .nav-link {
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+.sidebar-accordion .bi-chevron-down {
+    transition: transform 0.2s ease;
+}
+
+.sidebar-accordion button[aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+}
