@@ -16,7 +16,7 @@
                     National Conciliation and Mediation Board
                 </div>
                 <div class="gov-navbar-subtitle">
-                    Electronic Document Tracking and Exchange System
+                    Electronic Document Tracking and Evaluation System
                 </div>
             </div>
 
@@ -51,7 +51,10 @@
                 <li><hr class="dropdown-divider"></li>
 
                 <li>
-                    <a href="#" class="dropdown-item">
+                    <a href="#"
+                    class="dropdown-item"
+                    data-bs-toggle="modal"
+                    data-bs-target="#profileModal">
                         <i class="bi bi-person-circle me-2"></i>
                         My Profile
                     </a>
@@ -74,3 +77,4 @@
     </div>
 
 </nav>
+@include('modals.profile-modal')
